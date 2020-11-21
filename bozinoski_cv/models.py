@@ -1,3 +1,9 @@
 from django.db import models
 
-# Create your models here.
+class Cv(models.Model):
+  contact = models.CharField(max_lenght=50)
+  education = models.CharField(max_lenght=50)
+  professional_experience = models.CharField(max_lenght=50)
+  skills = models.CharField(max_lenght=50)
+  organizations = models.CharField(max_lenght=50)
+  coding_projects = models.CharField(max_lenght=50)
