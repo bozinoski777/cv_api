@@ -7,3 +7,4 @@ class Cv(models.Model):
   skills = models.CharField(max_length=50)
   organizations = models.CharField(max_length=50)
   coding_projects = models.CharField(max_length=50)
+  category = models.CharField(max_length=50)

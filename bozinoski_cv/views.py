@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from rest_framework import viewsets
-from .models import CvSerializer
+from .models import Cv
 from .serializers import CvSerializer
 
 class CvView(viewsets.ModelViewSet):
