@@ -1,5 +1,6 @@
 from django.apps import AppConfig
 
 
-class bozinoski_cvConfig(AppConfig):
-    name = 'bozinoski_cv'
+class categoryConfig(AppConfig):
+    name = 'category'
+    https://www.youtube.com/watch?v=QB9gGEwxxM4&ab_channel=PrettyPrinted
